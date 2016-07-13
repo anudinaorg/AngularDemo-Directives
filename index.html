@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="angular.min.js"></script>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body ng-app>
+<div>
+4+4 = {{4+4}}
+</div>
+<h4>List of Students</h4>
+<div ng-init="students=['anand','deepika','anu','roopa']">  
+	<ul ng-repeat="s in students">
+	    <li>{{s}}</li>
+	</ul>
+</div>
+</body>
+</html>
